@@ -56,13 +56,12 @@ class Resume extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Technical Skills</span></h1>
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
+            <p>Some technologies, languages and tools that I work with:</p>
+            <p>HTML5, CSS3, Bootstrap, JavaScript(ES6+), Python, NodeJs, ReactJs,Ruby on Rails, MongoDB, MySQL,Postgres, Git, Docker, Heroku</p>
 
 				<div className="bars">
 				   <ul className="skills">

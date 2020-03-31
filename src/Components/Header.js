@@ -24,18 +24,20 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+	         <li><a className="smoothscroll" href="#resume">Experience</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
+            
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">Hello world. I'm {name}.</h1>
+            <h3 >I'm a CS graduate student specializing in Software Engineering, Software Development 
+              and Full stack web development at Oregon State University. 
+              When I'm not writing software, I'm usually hiking, biking and shooting videos with my GoPro. 
+              I get excited talking about sports (especially the NBA), technology and anything related to space.</h3>
             <hr />
             <ul className="social">
                {networks}
